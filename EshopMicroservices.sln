@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{C66A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{C295AB73-D7FB-492C-8CD4-F18874DA8D99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{20C10DCB-959D-40C6-A35B-6EA15CBB8492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{8869F630-01BA-4F0F-982E-D32EAC9CD787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{C295AB73-D7FB-492C-8CD4-F18874DA8D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C295AB73-D7FB-492C-8CD4-F18874DA8D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C295AB73-D7FB-492C-8CD4-F18874DA8D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8869F630-01BA-4F0F-982E-D32EAC9CD787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8869F630-01BA-4F0F-982E-D32EAC9CD787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8869F630-01BA-4F0F-982E-D32EAC9CD787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8869F630-01BA-4F0F-982E-D32EAC9CD787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C66A22BE-D8F7-4414-9B26-1DFDF57EADC1} = {1B814FC9-48A9-4B04-8F46-5741AD0E5313}
 		{C295AB73-D7FB-492C-8CD4-F18874DA8D99} = {C66A22BE-D8F7-4414-9B26-1DFDF57EADC1}
+		{8869F630-01BA-4F0F-982E-D32EAC9CD787} = {20C10DCB-959D-40C6-A35B-6EA15CBB8492}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B1ADFDC-E900-46BD-8D0A-D07D7ADACC0F}
