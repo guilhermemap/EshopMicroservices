@@ -5,6 +5,7 @@ public record CreateProductRequest(string Name,
                                    string Description,
                                    string ImageFile,
                                    decimal Price);
+
 public record CreateProductResponse(Guid Id);
 
 public class CreateProductEndpoint : ICarterModule
@@ -19,6 +20,7 @@ public class CreateProductEndpoint : ICarterModule
                 var response = result.Adapt<CreateProductResponse>();
 
                 return Results.Created($"/products/{response.Id}", response);
+
             })
             .WithName("CreateProduct")
             .Produces<CreateProductResponse>(StatusCodes.Status201Created)
